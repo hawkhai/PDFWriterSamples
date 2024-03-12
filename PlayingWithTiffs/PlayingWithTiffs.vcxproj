@@ -53,17 +53,18 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>C:\Users\CF\Downloads\PDFWriterSamples\PDF-Writer\PDFWriter;..\PDFWriter\Headers\PDFWriter;..\PDFWriter\Headers\freetype;..\PDFWriter\Headers\libtiff;..\PDFWriter\Headers\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\PDF-Writer\PDFWriter;..\PDFWriter\Headers\freetype;..\PDFWriter\Headers\libtiff;..\PDFWriter\Headers\PDFWriter;..\PDFWriter\Headers\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;NOMINMAX;_PLAYINGWITHTIFFS_VCXPROJ;WIN32_LEAN_AND_MEAN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>true</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <PrecompiledHeader />
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalOptions>/we4013 /we4047 /we4133 /we4172 /we4431 /we4456 /we4457 /we4477 /we4700 /we4715 /we4716 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>..\PDFWriter\Binaries\$(Platform)\$(Configuration)\PDFWriter.lib;..\PDFWriter\Binaries\$(Platform)\$(Configuration)\zlib.lib;..\PDFWriter\Binaries\$(Platform)\$(Configuration)\libtiff.lib;..\PDFWriter\Binaries\$(Platform)\$(Configuration)\freetype.lib;C:\Users\CF\Downloads\PDFWriterSamples\PDFWriter\Binaries\Win32\Debug\FreeType.lib;C:\Users\CF\Downloads\PDFWriterSamples\PDFWriter\Binaries\Win32\Debug\LibAesgm.lib;C:\Users\CF\Downloads\PDFWriterSamples\PDFWriter\Binaries\Win32\Debug\LibJpeg.lib;C:\Users\CF\Downloads\PDFWriterSamples\PDFWriter\Binaries\Win32\Debug\LibPng.lib;C:\Users\CF\Downloads\PDFWriterSamples\PDFWriter\Binaries\Win32\Debug\LibTiff.lib;C:\Users\CF\Downloads\PDFWriterSamples\PDFWriter\Binaries\Win32\Debug\PDFWriter.lib;C:\Users\CF\Downloads\PDFWriterSamples\PDFWriter\Binaries\Win32\Debug\Zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>..\PDFWriter\Binaries\$(Platform)\$(Configuration)\freetype.lib;..\PDFWriter\Binaries\$(Platform)\$(Configuration)\libtiff.lib;..\PDFWriter\Binaries\$(Platform)\$(Configuration)\PDFWriter.lib;..\PDFWriter\Binaries\$(Platform)\$(Configuration)\zlib.lib;..\PDFWriter\Binaries\Win32\Debug\FreeType.lib;..\PDFWriter\Binaries\Win32\Debug\LibAesgm.lib;..\PDFWriter\Binaries\Win32\Debug\LibJpeg.lib;..\PDFWriter\Binaries\Win32\Debug\LibPng.lib;..\PDFWriter\Binaries\Win32\Debug\LibTiff.lib;..\PDFWriter\Binaries\Win32\Debug\PDFWriter.lib;..\PDFWriter\Binaries\Win32\Debug\Zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
       <TargetMachine>MachineX86</TargetMachine>
@@ -73,17 +74,18 @@
     <ClCompile>
       <Optimization>MaxSpeed</Optimization>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <AdditionalIncludeDirectories>..\PDFWriter\Headers\PDFWriter;..\PDFWriter\Headers\freetype;..\PDFWriter\Headers\libtiff;..\PDFWriter\Headers\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\PDFWriter\Headers\freetype;..\PDFWriter\Headers\libtiff;..\PDFWriter\Headers\PDFWriter;..\PDFWriter\Headers\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;NOMINMAX;_PLAYINGWITHTIFFS_VCXPROJ;WIN32_LEAN_AND_MEAN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <PrecompiledHeader />
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalOptions>/we4013 /we4047 /we4133 /we4172 /we4431 /we4456 /we4457 /we4477 /we4700 /we4715 /we4716 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>..\PDFWriter\Binaries\$(Platform)\$(Configuration)\PDFWriter.lib;..\PDFWriter\Binaries\$(Platform)\$(Configuration)\zlib.lib;..\PDFWriter\Binaries\$(Platform)\$(Configuration)\libtiff.lib;..\PDFWriter\Binaries\$(Platform)\$(Configuration)\freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <AdditionalDependencies>..\PDFWriter\Binaries\$(Platform)\$(Configuration)\freetype.lib;..\PDFWriter\Binaries\$(Platform)\$(Configuration)\libtiff.lib;..\PDFWriter\Binaries\$(Platform)\$(Configuration)\PDFWriter.lib;..\PDFWriter\Binaries\$(Platform)\$(Configuration)\zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
