@@ -140,7 +140,7 @@ void showXObjectsPerPageInfo(PDFParser& parser,PDFObjectCastPtr<PDFDictionary> x
  
 void showPageContent(PDFParser& parser, RefCountPtr<PDFObject> contents, InputFile& pdfFile) 
 {
-    if(contents->GetType() == ePDFObjectArray) 
+    if(contents->GetType() == PDFObject::ePDFObjectArray)
 	{
         PDFObjectCastPtr<PDFIndirectObjectReference> streamReferences;
 		SingleValueContainerIterator<PDFObjectVector> itContents = ((PDFArray*)contents.GetPtr())->GetIterator();

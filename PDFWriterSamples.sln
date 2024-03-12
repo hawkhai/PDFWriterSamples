@@ -1,29 +1,31 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BasicImageAndText", "BasicImageAndText\BasicImageAndText.vcproj", "{BB9CEBAB-3B95-4B3F-AE43-83AE711637D7}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34301.259
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BasicImageAndText", "BasicImageAndText\BasicImageAndText.vcxproj", "{BB9CEBAB-3B95-4B3F-AE43-83AE711637D7}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DrawingShapes", "DrawingShapes\DrawingShapes.vcproj", "{D2450E2E-B938-478F-8212-486DB98F2399}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DrawingShapes", "DrawingShapes\DrawingShapes.vcxproj", "{D2450E2E-B938-478F-8212-486DB98F2399}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PlayingWithTiffs", "PlayingWithTiffs\PlayingWithTiffs.vcproj", "{56B537E4-88C7-4AA1-8076-1A7257F27FAF}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PlayingWithTiffs", "PlayingWithTiffs\PlayingWithTiffs.vcxproj", "{56B537E4-88C7-4AA1-8076-1A7257F27FAF}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JPGImages", "JPGImages\JPGImages.vcproj", "{A4B39FCF-6205-41E8-8402-C73F2D32F2AF}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JPGImages", "JPGImages\JPGImages.vcxproj", "{A4B39FCF-6205-41E8-8402-C73F2D32F2AF}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UsingText", "UsingText\UsingText.vcproj", "{F7C8A108-FED1-47D8-8FB8-652DAD1CC7D7}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UsingText", "UsingText\UsingText.vcxproj", "{F7C8A108-FED1-47D8-8FB8-652DAD1CC7D7}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MakingComments", "MakingComments\MakingComments.vcproj", "{7532D080-D42C-49DD-9CE1-2D30A81A898C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MakingComments", "MakingComments\MakingComments.vcxproj", "{7532D080-D42C-49DD-9CE1-2D30A81A898C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EmbeddingPDFs", "EmbeddingPDFs\EmbeddingPDFs.vcproj", "{78EB980D-8EAC-472B-89D4-E643A80B45C9}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EmbeddingPDFs", "EmbeddingPDFs\EmbeddingPDFs.vcxproj", "{78EB980D-8EAC-472B-89D4-E643A80B45C9}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PauseAndContinue", "PauseAndContinue\PauseAndContinue.vcproj", "{5974D6E1-2F69-43FB-97DB-03C296348432}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PauseAndContinue", "PauseAndContinue\PauseAndContinue.vcxproj", "{5974D6E1-2F69-43FB-97DB-03C296348432}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Links", "Links\Links.vcproj", "{B5E3568A-0F49-4591-B07E-16EC7DF4DD3B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Links", "Links\Links.vcxproj", "{B5E3568A-0F49-4591-B07E-16EC7DF4DD3B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MergingUniquePDFPages", "MergingUniquePDFPages\MergingUniquePDFPages.vcproj", "{85F6A4CC-513F-4C2A-9E2B-38C2DF700E27}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MergingUniquePDFPages", "MergingUniquePDFPages\MergingUniquePDFPages.vcxproj", "{85F6A4CC-513F-4C2A-9E2B-38C2DF700E27}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Parsing", "Parsing\Parsing.vcproj", "{3FB22D39-6977-4EA4-9AD2-5E077735EAF0}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Parsing", "Parsing\Parsing.vcxproj", "{3FB22D39-6977-4EA4-9AD2-5E077735EAF0}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CopyingPagesWithComments", "CopyingPagesWithComments\CopyingPagesWithComments.vcproj", "{94B50DA0-12E8-4B47-B3C9-1EF67A82FDFE}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CopyingPagesWithComments", "CopyingPagesWithComments\CopyingPagesWithComments.vcxproj", "{94B50DA0-12E8-4B47-B3C9-1EF67A82FDFE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -156,5 +158,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9C0C944-BC20-45F0-91BB-536D52AD972F}
 	EndGlobalSection
 EndGlobal
