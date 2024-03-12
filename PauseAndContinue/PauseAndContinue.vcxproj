@@ -64,7 +64,7 @@
       <AdditionalOptions>/we4013 /we4047 /we4133 /we4172 /we4431 /we4456 /we4457 /we4477 /we4700 /we4715 /we4716 /we4723 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>..\PDFWriter\Binaries\$(Platform)\$(Configuration)\freetype.lib;..\PDFWriter\Binaries\$(Platform)\$(Configuration)\libtiff.lib;..\PDFWriter\Binaries\$(Platform)\$(Configuration)\PDFWriter.lib;..\PDFWriter\Binaries\$(Platform)\$(Configuration)\zlib.lib;..\PDFWriter\Binaries\Win32\Debug\FreeType.lib;..\PDFWriter\Binaries\Win32\Debug\LibAesgm.lib;..\PDFWriter\Binaries\Win32\Debug\LibJpeg.lib;..\PDFWriter\Binaries\Win32\Debug\LibPng.lib;..\PDFWriter\Binaries\Win32\Debug\LibTiff.lib;..\PDFWriter\Binaries\Win32\Debug\PDFWriter.lib;..\PDFWriter\Binaries\Win32\Debug\Zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>..\PDF-Writer\build\FreeType\$(Configuration)\FreeType.lib;..\PDF-Writer\build\LibAesgm\$(Configuration)\LibAesgm.lib;..\PDF-Writer\build\LibJpeg\$(Configuration)\LibJpeg.lib;..\PDF-Writer\build\LibPng\$(Configuration)\LibPng.lib;..\PDF-Writer\build\LibTiff\$(Configuration)\LibTiff.lib;..\PDF-Writer\build\PDFWriter\$(Configuration)\PDFWriter.lib;..\PDF-Writer\build\Zlib\$(Configuration)\Zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
       <TargetMachine>MachineX86</TargetMachine>
@@ -74,7 +74,7 @@
     <ClCompile>
       <Optimization>MaxSpeed</Optimization>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <AdditionalIncludeDirectories>..\PDFWriter\Headers\freetype;..\PDFWriter\Headers\libtiff;..\PDFWriter\Headers\PDFWriter;..\PDFWriter\Headers\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\PDF-Writer\PDFWriter;..\PDFWriter\Headers\freetype;..\PDFWriter\Headers\libtiff;..\PDFWriter\Headers\PDFWriter;..\PDFWriter\Headers\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;NOMINMAX;_PAUSEANDCONTINUE_VCXPROJ;WIN32_LEAN_AND_MEAN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -84,7 +84,7 @@
       <AdditionalOptions>/we4013 /we4047 /we4133 /we4172 /we4431 /we4456 /we4457 /we4477 /we4700 /we4715 /we4716 /we4723 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>..\PDFWriter\Binaries\$(Platform)\$(Configuration)\freetype.lib;..\PDFWriter\Binaries\$(Platform)\$(Configuration)\libtiff.lib;..\PDFWriter\Binaries\$(Platform)\$(Configuration)\PDFWriter.lib;..\PDFWriter\Binaries\$(Platform)\$(Configuration)\zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>..\PDF-Writer\build\FreeType\$(Configuration)\FreeType.lib;..\PDF-Writer\build\LibAesgm\$(Configuration)\LibAesgm.lib;..\PDF-Writer\build\LibJpeg\$(Configuration)\LibJpeg.lib;..\PDF-Writer\build\LibPng\$(Configuration)\LibPng.lib;..\PDF-Writer\build\LibTiff\$(Configuration)\LibTiff.lib;..\PDF-Writer\build\PDFWriter\$(Configuration)\PDFWriter.lib;..\PDF-Writer\build\Zlib\$(Configuration)\Zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>

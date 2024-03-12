@@ -31,5 +31,6 @@ PDFWriter
 PDFWriter.zip
 /.vs
 Debug
+Release
 UpgradeLog.htm
 /Backup
