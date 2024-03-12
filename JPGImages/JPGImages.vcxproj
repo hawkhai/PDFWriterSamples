@@ -62,7 +62,7 @@
       <ProgramDataBaseFileName>$(IntDir)vc90.pdb</ProgramDataBaseFileName>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
-      <AdditionalOptions>/we4013 /we4047 /we4133 /we4172 /we4431 /we4456 /we4457 /we4477 /we4700 /we4715 /we4716 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/we4013 /we4047 /we4133 /we4172 /we4431 /we4456 /we4457 /we4477 /we4700 /we4715 /we4716 /we4723 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <AdditionalDependencies>..\PDFWriter\Binaries\$(Platform)\$(Configuration)\freetype.lib;..\PDFWriter\Binaries\$(Platform)\$(Configuration)\libtiff.lib;..\PDFWriter\Binaries\$(Platform)\$(Configuration)\PDFWriter.lib;..\PDFWriter\Binaries\$(Platform)\$(Configuration)\zlib.lib;..\PDFWriter\Binaries\Win32\Debug\FreeType.lib;..\PDFWriter\Binaries\Win32\Debug\LibAesgm.lib;..\PDFWriter\Binaries\Win32\Debug\LibJpeg.lib;..\PDFWriter\Binaries\Win32\Debug\LibPng.lib;..\PDFWriter\Binaries\Win32\Debug\LibTiff.lib;..\PDFWriter\Binaries\Win32\Debug\PDFWriter.lib;..\PDFWriter\Binaries\Win32\Debug\Zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
@@ -83,7 +83,7 @@
       <ProgramDataBaseFileName>$(IntDir)vc90.pdb</ProgramDataBaseFileName>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <AdditionalOptions>/we4013 /we4047 /we4133 /we4172 /we4431 /we4456 /we4457 /we4477 /we4700 /we4715 /we4716 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/we4013 /we4047 /we4133 /we4172 /we4431 /we4456 /we4457 /we4477 /we4700 /we4715 /we4716 /we4723 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <AdditionalDependencies>..\PDFWriter\Binaries\$(Platform)\$(Configuration)\freetype.lib;..\PDFWriter\Binaries\$(Platform)\$(Configuration)\libtiff.lib;..\PDFWriter\Binaries\$(Platform)\$(Configuration)\PDFWriter.lib;..\PDFWriter\Binaries\$(Platform)\$(Configuration)\zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
